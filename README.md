@@ -112,13 +112,31 @@ retail-sales-analysis/
 
 ├── README.md
 
-├── datacheck.sql
+├── 01\_data\_quality\_check.sql
 
-├── category\_region\_analysis.sql
+├── 02\_category\_region\_analysis.sql
 
-├── monthly\_analysis.sql
+├── 03\_monthly\_trend\_analysis.sql
 
-└── overall\_analysis.sql
+├── 04\_overall\_business\_analysis.sql
+
+├── PowerBI/
+
+│   └── retail\_sales\_analysis.pbix
+
+└── Images/
+
+&#x20;   ├── overview.png
+
+&#x20;   ├── category\_region.png
+
+&#x20;   └── monthly.png
+
+
+
+SQL 文件：包含数据质量检查、整体经营指标、品类与地区分析、月度趋势分析查询。
+
+PowerBI 文件：包含四个页面的完整交互式分析报表，可使用 Power BI Desktop 打开。
 
 
 
