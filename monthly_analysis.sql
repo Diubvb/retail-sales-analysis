@@ -34,3 +34,13 @@ SELECT
 FROM sales_with_previous
 ORDER BY month_number;
 
+SELECT
+    MONTH(Date) AS month_number,
+    SUM(SUM(Sales)) OVER (
+        ORDER BY MONTH(Date)
+        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+    ) AS cumulative_sales
+FROM retail_sales_clean
+WHERE Date IS NOT NULL
+GROUP BY month_number
+ORDER BY month_number;
