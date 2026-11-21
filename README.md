@@ -14,7 +14,7 @@
 
 数据规模： 1,825 条销售记录
 
-使用工具： MySQL Power BI、DAX
+使用工具： MySQL、Power BI、DAX
 
 
 
@@ -112,13 +112,13 @@ retail-sales-analysis/
 
 ├── README.md
 
-├── 01\_data\_quality\_check.sql
+├── datacheck.sql
 
-├── 02\_category\_region\_analysis.sql
+├── category\_region\_analysis.sql
 
-├── 03\_monthly\_trend\_analysis.sql
+├── monthly\_analysis.sql
 
-├── 04\_overall\_business\_analysis.sql
+├── overall\_analysis.sql
 
 ├── PowerBI/
 
