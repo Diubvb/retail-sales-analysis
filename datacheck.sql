@@ -7,7 +7,7 @@ USE sales_analysis;
 SELECT COUNT(*) AS total_records
 FROM retail_sales_clean;
 
--- 2.检查异常值和空值
+-- 2.检查各字段缺失情况
 SELECT
     COUNT(*) AS total_records,
     SUM(Date IS NULL) AS missing_date,
